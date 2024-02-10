@@ -1,0 +1,17 @@
+{
+    "name": "carlos/test-php",
+    "description": "test for php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "TestPhp\\": "src/",
+            "TestPhp\\Common\\":"src/common/",
+            "TestPhp\\Entities\\":"src/entities",
+            "TestPhp\\Controllers\\":"src/controllers"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "twilio/sdk": "^7.15"
+    }
+}
